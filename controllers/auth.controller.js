@@ -1,4 +1,4 @@
-import { sendVerificationEmail, sendWelcomeEmail, sendPasswordResetEmail, sendResetSuccessEmail } from "../mailtrap/emails.js";
+import {sendVerificationEmail, sendWelcomeEmail,sendPasswordResetEmail,sendResetSuccessEmail } from "../mailtrap/emails.js";
 import User from "../models/userModel.js"
 import jwt from 'jsonwebtoken'
 import crypto from "crypto"
