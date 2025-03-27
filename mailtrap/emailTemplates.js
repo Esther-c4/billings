@@ -94,6 +94,9 @@ export const PASSWORD_RESET_REQUEST_TEMPLATE = `
 </html>
 `;
 
+
+
+
 export const WELCOME_EMAIL_TEMPLATE = `
 <!DOCTYPE html>
 <html lang="en">
@@ -108,7 +111,7 @@ export const WELCOME_EMAIL_TEMPLATE = `
   </div>
   <div style="background-color: #f9f9f9; padding: 20px; border-radius: 0 0 5px 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
     <p>Hello,</p>
-    <p>Welcome to our website, your account has been created successfully.</p>
+    <p>Welcome to our website, Your account has been created successfully.</p>
     <div style="text-align: center; margin: 30px 0;">
       <div style="background-color: #4CAF50; color: white; width: 50px; height: 50px; line-height: 50px; border-radius: 50%; display: inline-block; font-size: 30px;">
         ✓
@@ -130,3 +133,4 @@ export const WELCOME_EMAIL_TEMPLATE = `
 </body>
 </html>
 `;
+
